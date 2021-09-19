@@ -24,7 +24,9 @@ header{
 .projects{
     background: #fefae0;
 }
-
+.projects a{
+    color: #4E6E5D;  
+}
 .projects .btn{
     background: #3A2E39;
     color:#ccd5ae;
