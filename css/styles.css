@@ -47,6 +47,7 @@ h1, h2{
 ---------------------------*/
 header{
     background: #4E6E5D;
+    text-align: center;
 }
 
 
@@ -101,4 +102,15 @@ header{
 ---------------------------*/
 footer{
     background: #bc6c25;
+    text-align: center;
+}
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
 }
