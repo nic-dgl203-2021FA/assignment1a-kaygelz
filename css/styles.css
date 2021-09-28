@@ -71,11 +71,6 @@ header{
 .projects .btn:hover{
     background:rgba(58, 46, 57, 80%);
 }
-/* Work Experience
----------------------------*/
-.work-experience{
-    background: #ccd5ae;
-}
 .project-item{
     overflow: hidden;
     border-bottom: 1px dashed #3A2E39;
@@ -88,6 +83,17 @@ header{
 
 .project-item h3{
     margin-top: 0;
+}
+/* Work Experience
+---------------------------*/
+.work-experience{
+    background: #ccd5ae;
+}
+
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
 }
 
 
