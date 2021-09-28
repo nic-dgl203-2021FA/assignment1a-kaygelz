@@ -75,7 +75,19 @@ header{
 .work-experience{
     background: #ccd5ae;
 }
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #3A2E39;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
 
+.project-item h3{
+    margin-top: 0;
+}
 
 
 /* Education
