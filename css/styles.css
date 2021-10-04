@@ -54,6 +54,14 @@ h3 {
 .item-details h3 ~ p {
     margin: 0;
 }
+
+.divider > section {
+    border-bottom: 1px dashed #3A2E39;
+    padding: 25px 0;
+}
+.divider > section:last-of-type {
+    border-bottom: none;
+}
 /* Profile
 ---------------------------*/
 header{
@@ -74,7 +82,7 @@ header{
     background: #3A2E39;
     color:#ccd5ae;
     text-decoration: none;
-    pading: 8px;
+    padding: 8px;
     border-radius: 4px;
     display: inline-block;
 }
@@ -84,8 +92,6 @@ header{
 }
 .project-item{
     overflow: hidden;
-    border-bottom: 1px dashed #3A2E39;
-    padding: 25px 0;
 }
 .project-item img{
     float: left;
